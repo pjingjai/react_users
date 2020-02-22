@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +35,60 @@
   to {
     transform: rotate(360deg);
   }
+} */
+/* 
+.ui.input > input {
+  margin: 0;
+  max-width: 300px;
+  flex: 1 0 auto;
+  outline: 0;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  line-height: 1.21428571em;
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 0.67857143em 1em;
+  background: #fff;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: 500rem;
+  transition: box-shadow 0.1s ease, border-color 0.1s ease;
+  box-shadow: none;
+} */
+
+.ui.buttons {
+  width: 100%;
+}
+
+a.link {
+  width: 100%;
+}
+
+a.link > button {
+  width: 100%;
+}
+
+div.panel {
+  display: flex;
+  justify-content: center;
+  margin: 10px 2px;
+}
+
+div.panel > div {
+  display: block;
+  margin: 5px 2px;
+}
+
+.ui.grid {
+  width: 100%;
+}
+
+div.dropdown {
+  border-radius: 20px !important;
+  width: 300px !important;
+}
+
+div.content {
+  display: flex;
+  justify-content: center;
+  margin: 10px 2px;
 }
