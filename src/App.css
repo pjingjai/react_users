@@ -82,7 +82,7 @@ div.panel > div {
   width: 100%;
 }
 
-div.dropdown {
+div.my_dropdown {
   border-radius: 20px !important;
   width: 300px !important;
 }

@@ -66,6 +66,7 @@ class TableGet extends React.Component {
                 <Grid.Column width={14}>
                     <div className='panel'>
                         <Select
+                        className='my_dropdown'
                             defaultValue={modeGet}
                             fluid
                             selection
@@ -88,6 +89,7 @@ class TableGet extends React.Component {
                         {
                             modeGet === 'gender' ?
                                 <Select
+                                className='my_dropdown'
                                     placeholder='Gender'
                                     fluid
                                     selection

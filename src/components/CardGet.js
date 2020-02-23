@@ -174,7 +174,7 @@ class CardGet extends React.Component {
                     <div className='panel'>
                         <div>
                             <Select
-                                className='dropdown'
+                                className='my_dropdown'
                                 defaultValue={modeGet}
                                 fluid
                                 selection
