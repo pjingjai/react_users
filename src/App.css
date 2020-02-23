@@ -76,6 +76,25 @@ div.panel {
 div.panel > div {
   display: block;
   margin: 5px 2px;
+  width: 100%
+}
+
+div.panel > div > div {
+  width: 100%;
+  max-width: 100%;
+}
+
+div.panel .ui.icon.input {
+  width: 100%;
+  max-width: 100%;
+}
+
+div.panel .my_dropdown {
+  width: 100% !important;
+}
+
+div.panel input {
+  width: 100% !important;
 }
 
 .ui.grid {
@@ -88,7 +107,5 @@ div.my_dropdown {
 }
 
 div.content {
-  display: flex;
-  justify-content: center;
-  margin: 10px 2px;
+  
 }

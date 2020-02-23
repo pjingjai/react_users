@@ -197,7 +197,6 @@ class CardGet extends React.Component {
                             <CustomSearch keyword={modeGet} func={this.updateInputValue} />
                         </div>
 
-                        <div>
                             <Button
                                 animated
                                 onClick={
@@ -222,12 +221,12 @@ class CardGet extends React.Component {
                                     <Icon name='arrow right' />
                                 </Button.Content>
                             </Button>
-                        </div>
 
                     </div>
 
                     <div className='content'>
                         <CustomCard
+                        className='my_card'
                             cardData={cardData}
                         />
                     </div>
